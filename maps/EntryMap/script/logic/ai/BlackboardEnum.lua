@@ -1,0 +1,30 @@
+local ____lualib = include("lualib_bundle")
+local __TS__SourceMapTraceBack = ____lualib.__TS__SourceMapTraceBack
+__TS__SourceMapTraceBack(debug.getinfo(1).short_src, {["5"] = 1,["6"] = 13,["7"] = 18,["8"] = 28,["9"] = 33,["10"] = 38,["11"] = 43,["12"] = 48,["13"] = 53,["14"] = 60,["15"] = 65,["16"] = 70,["17"] = 77,["18"] = 82,["19"] = 87,["20"] = 93,["21"] = 98,["22"] = 103,["23"] = 108,["24"] = 113,["25"] = 118,["26"] = 123,["27"] = 128,["28"] = 133,["29"] = 138});
+local ____exports = {}
+____exports.BlackboardEnum = BlackboardEnum or ({})
+____exports.BlackboardEnum.gameStage = "gameStage"
+____exports.BlackboardEnum.gameLevel = "gameLevel"
+____exports.BlackboardEnum.gameMode = "gameMode"
+____exports.BlackboardEnum.gameEvent = "gameEvent"
+____exports.BlackboardEnum.gameTrigger = "gameTrigger"
+____exports.BlackboardEnum.gameNextTrigger = "gameNextTrigger"
+____exports.BlackboardEnum.readyLeftTime = "readyLeftTime"
+____exports.BlackboardEnum.averageLevel = "averageLevel"
+____exports.BlackboardEnum.gold = "gold"
+____exports.BlackboardEnum.wood = "wood"
+____exports.BlackboardEnum.roleLevel = "roleLevel"
+____exports.BlackboardEnum.strategy = "strategy"
+____exports.BlackboardEnum.kingLeft = "kingLeft"
+____exports.BlackboardEnum.enemyKingLeft = "enemyKingLeft"
+____exports.BlackboardEnum.cutThroughCount = "cutThroughCount"
+____exports.BlackboardEnum.farmerLevel = "farmerLevel"
+____exports.BlackboardEnum.gatherLevel = "gatherLevel"
+____exports.BlackboardEnum.heroHurtDistance = "heroHurtDistance"
+____exports.BlackboardEnum.heroId = "heroId"
+____exports.BlackboardEnum.resetBudgetLevel = "resetBudgetLevel"
+____exports.BlackboardEnum.woodBudget = "woodBudget"
+____exports.BlackboardEnum.woodConsume = "woodConsume"
+____exports.BlackboardEnum.levelupCount = "levelupCount"
+____exports.BlackboardEnum.mercenaryList = "mercenaryList"
+return ____exports
